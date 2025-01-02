@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: hsl(47, 88%, 63%);
+      margin: 40px 20px;
+      padding: 20px 20px;
+     display: grid;
+     place-items: center;
+    }
+
+    @media (max-width:375px){
+      .container{
+        margin: 10px;
+        font-size: 12px;
+      }
+    }
+    @media (min-width: 1440px){
+      .container{
+        margin: 40px;
+        font-size: 20px;
+      }
+    }
+    
+    .container{
+    width: 350px;
+    min-height: 500px;
+      border-radius: 20px;
+      border: 1px solid black;
+      border-right-width: 10px;
+      border-bottom-width: 10px;
+      border-right-color: black;
+      border-bottom-color: black;
+      background-color: hsl(0, 0%, 100%);
+      padding:20px ;
+      margin: 20px;
+    }
+    .container h2{
+   margin-bottom: 5px;
+    }
+
+    .container p{
+      margin-top: 4px;
+    }
+    .side{
+    padding-left: 10px;
+    }
+
+    h2{
+      background-color: hsl(47, 88%, 63%);
+      border: 0px solid black;
+      display: inline-block;
+      padding: 4px;
+      margin-left: 10px;
+     font-size: 16px;
+     font-weight: bolder;
+    } 
+
+    p{ 
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+    }
+
+    h1{
+      font-size: 27px;
+      padding-left: 5px;
+      font-weight: bolder;
+    }
+
+    .profile{
+      width: 30px;
+      float: left;
+      margin-right: 5px;
+      padding-top: 30px;
+    }
+
+ h3{
+  padding: 30px;
+  margin-bottom: 1px;
+  font-size: 20px;
+  font-style:italic;
+ }
+  </style>
+</head>
+<body>
+  <div class="container">
+<img  class="side" src="./assets/images/illustration-article.svg" alt="illustration-article">
+
+  <h2><b>Learning</b></h2>
+
+  <p>Published 21 Dec 2023</p>
+
+  <h1>HTML & CSS foundations</h1>
+
+  <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+  
+<img class="profile" src="./assets/images/image-avatar.webp" alt="avatar">
+  <h3><b>Greg Hooper</b></h3>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">janechizzy</a>.
+  </div>
+
+</body>
+</html>
